@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <utenti>
+        <utente tipo="Basic" hide="false">
+            <infopersonali>
+                <email>miki@libero.it</email>
+                <nome>miki</nome>
+                <cognome>violetto</cognome>
+		<sesso>maschile</sesso>
+            </infopersonali>
+        </utente>
+	<utente tipo="Executive" hide="false">
+            <infopersonali>
+                <email>funny_fox@gmail.com</email>
+                <nome>michela</nome>
+                <cognome>vitetto</cognome>
+		<residenza>Sottoponte di sopra</residenza>
+		<luogonascita>Guizza PD</luogonascita>
+		<sesso>femminile</sesso>
+		<numerotelefonico>3286479817</numerotelefonico>
+		<datanascita>08 03 1998</datanascita>
+		<lavoro>babysitter a tempo pieno</lavoro>
+		<titolodistudio>diploma di istituto agrario</titolodistudio>
+            </infopersonali>
+        </utente>
+        <utente tipo="Business" hide="true">
+            <infopersonali>
+                <email>francesco.rossi@gmail.com</email>
+                <nome>francescino</nome>
+                <cognome>rossi</cognome>
+		<datanascita>08 03 1988</datanascita>
+		<lavoro>genio malvagio autonomo</lavoro>
+            </infopersonali>
+        </utente>
+    </utenti>
+    <rete>
+      <contatto>miki@libero.it funny_fox@gmail.com</contatto>
+      <contatto>funny_fox@gmail.com miki@libero.it</contatto>
+      <contatto>francesco.rossi@gmail.com funny_fox@gmail.com</contatto>
+      <contatto>francesco.rossi@gmail.com miki@libero.it</contatto>
+    </rete>
+</database>
